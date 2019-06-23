@@ -1,9 +1,10 @@
 package com.leyou.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbSeller {
-    private String sellerId;
+public class TbSeller  implements Serializable{
+        private String sellerId;
 
     private String name;
 
